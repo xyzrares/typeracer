@@ -43,7 +43,7 @@ class TypeSpeedGUI:
             self.input_entry.config(fg = "red")
         else:
             self.input_entry.config(fg = "black")
-        if self.input_entry.get() == self.sample_label.cget('text')[:-1]:
+        if self.input_entry.get() == self.sample_label.cget('text'):
             self.running = False
             self.input_entry.config(fg = "green")
     
