@@ -3,6 +3,13 @@ import time
 import threading 
 import random
 
+
+#De adaugat clasament care sa includa top 10 cele mai bune WPM scos 
+#De adaugat toate cuvintele din dictionarul englezesc 
+#De facut moduri de joc - Most commonly mistaken words, With punctuation, Timer, Sandox, Nr de cuvinte 
+#De transpus totul intr-un WebApp
+
+
 class TypeSpeedGUI:
     def __init__(self):
         self.root = tk.Tk()
